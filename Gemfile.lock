@@ -36,6 +36,7 @@ GEM
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
+    railsless-deploy (1.0.2)
     redcarpet (2.1.1)
     rvm-capistrano (1.2.0)
       capistrano (>= 2.0.0)
@@ -53,5 +54,6 @@ DEPENDENCIES
   capistrano_colors
   oldskool
   oldskool-puppet
+  railsless-deploy
   rvm-capistrano
   sinatra

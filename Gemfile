@@ -4,7 +4,11 @@ gem 'sinatra'
 gem 'oldskool'
 gem 'oldskool-puppet'
 
-gem 'capistrano'
-gem 'rvm-capistrano'
-gem 'capistrano_colors'
+group :development do
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+  gem 'capistrano_colors'
+
+  gem 'railsless-deploy'
+end
 
