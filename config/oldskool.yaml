@@ -1,0 +1,15 @@
+---
+:keywords:
+- :type: :url
+  :url: http://amazon.com/exec/obidos/search-handle-url/index=books&field-keywords=%Q%
+  :keywords:
+  - book
+  - books
+- :type: :url
+  :url: http://maps.google.com/maps?q=%Q%
+  :keywords:
+  - map
+  - gmap
+- :type: :puppet
+  :keywords:
+  - puppet
