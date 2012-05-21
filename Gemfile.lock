@@ -28,9 +28,12 @@ GEM
       bundler
       httparty
       sinatra
+    oldskool-password (0.0.2)
+      passmakr
     oldskool-puppet (0.0.3)
       puppet
       redcarpet
+    passmakr (1.1.0)
     puppet (2.7.14)
       facter (>= 1.5.1)
     rack (1.4.1)
@@ -52,8 +55,11 @@ PLATFORMS
 DEPENDENCIES
   capistrano
   capistrano_colors
+  facter
   oldskool
+  oldskool-password
   oldskool-puppet
+  puppet
   railsless-deploy
   rvm-capistrano
   sinatra
